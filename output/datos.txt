@@ -1,0 +1,4 @@
+Hola mundo, este es un texto random para probar la funcionalidad de manejar archivos con while.
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+
+asdasasssa
