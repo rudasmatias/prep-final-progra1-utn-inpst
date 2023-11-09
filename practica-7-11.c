@@ -141,6 +141,20 @@ void bucleFor(){
         k+=2; 
     }
     
+    int f;
+    for ( f = 0; f < 50; f+=5)
+    {
+        printf("%i-",f);
+    }
+    
+
+    int s, number;
+    printf("Ingrese un valor entre 1 y 10:");
+    scanf("%i",number);
+    for (s = number; f<=number*13; f+=number)
+    {
+        printf("%i-",s);
+    }
     
 }
 
@@ -232,6 +246,8 @@ int main(){
     /*    Es útil cuando necesitas ejecutar un bloque de código un número específico de veces. 
     Es una estructura de control de flujo que se utiliza comúnmente en situaciones en las que se conoce de 
     antemano la cantidad de iteraciones que se deben realizar. Lo utilizamos para recorrer arrays o matrices  */
+
+    //Inicio de contador - condición de corte (cualquiera) - función a ejecutar en el bloque del for
     bucleFor();
 
     //Ejercios recomendados:
