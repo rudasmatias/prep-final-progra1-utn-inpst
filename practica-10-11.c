@@ -55,6 +55,22 @@ int main(){
     edades[0] = 30;
     printf("\nEl elemento en la posicion 0 es: %i",edades[0]);
 
+    //Arrays multidimensionales: (filas y columnas) o (filas , columnas , profundidad)
+
+    int FILAS = 3;
+    int COLUMNAS = 3;
+
+    int tateti[][3]={{1 , 1, 0},{1 , 1, 0},{1 , 1, 0}};
+
+    for(int f = 0 ; f <FILAS; f++){
+        printf("[ ");
+        for(int c = 0; c<COLUMNAS;c++){
+            printf("%i ",tateti[f][c]);
+        }
+        printf("]");
+        printf("\n");
+    }
+
 
     //Estructuras: es un tipo de dato que permiten almacenar diferentes tipos de datos. Se definen por fuera del main.
     //Los miembros de la estructura se denominan campos.

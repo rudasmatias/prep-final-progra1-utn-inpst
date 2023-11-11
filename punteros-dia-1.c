@@ -39,7 +39,6 @@ int main(){
     scanDouble(&b3);
 
     b = 10;
-  
     
     printf("Valores de \nb:%i, \nb2:%.2f, \nb3:%.2lf",b,b2,b3);
     printf("\nPuntero %i",a);//Forma correcta del valor de la dirección de memoria en decimal
@@ -47,6 +46,6 @@ int main(){
     printf("\nPuntero %p",a); //Forma correcta del valor de la dirección de memoria en hexagesimal
     printf("\nPuntero %p",(void *)a);
     return 0;
-
+    
     
 }

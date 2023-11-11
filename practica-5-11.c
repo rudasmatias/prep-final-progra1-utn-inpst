@@ -21,6 +21,10 @@ void ejemplo(){
 
     printf("Nombre: %s\n", nombre);
     printf("Edad: %d\n", edad);
+
+
+    int referencia = 10;
+    printf("%p",&referencia); //%p y &Este es el valor de la dirección de memoria de referencia, no el valor que contiene la variable, es valor de la ubicación.
 }
 
 int main (){
