@@ -30,8 +30,19 @@ int main (){
     //Tipos de variables:
     int a = 10; 
     float b = 10.5;
-    double c = 10.265;
+    double c = 10.265; //se pide la informacion como scanf("%lf",&variable)
+
+    //Caracteres y cadenas de caracteres (strings)
     char x = 'x';
+    char y[]= "Matias"; //Definición de un arreglo de caracteres -->utilizamos %s 
+    //El scanf() lee hasta encontrar el primer espacio
+    //scanf("hola mundo")-->solo guarda ("hola")
+    //cuando el parámetro que se pasa es un string, no hace falta colocar el &, ya que estamos trabajando con la referencia directamente
+    //Para solucionar este problema lo que hacemos es usar la función:
+    //fgets(variable, numero(longitud máxima), stdin);  tiene 3 parametros.
+    //Lo que guarda es toda la frase completa.
+
+
 
     //Para los boleanos tomamos al entero 1 y 0 como verdadero y falso:
     int flag = 1;

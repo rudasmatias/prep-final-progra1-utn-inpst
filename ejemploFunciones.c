@@ -12,9 +12,11 @@ int main()
     while (opcion != 3){ 
         switch(opcion){ 
             case 1: 
-                calcularSumas(); break; 
+                calcularSumas(); 
+                break; 
             case 2: 
-                calcularMultiplicaciones(); break; 
+                calcularMultiplicaciones(); 
+                break; 
             default: 
                 error(1); 
         } 

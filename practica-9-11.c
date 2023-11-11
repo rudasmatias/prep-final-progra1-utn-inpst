@@ -97,14 +97,14 @@ int main(){
     posible del resto de la aplicación.
     */
 
-    //Funcines recursivas ---> Funciones que se llaman a sí misma!!! Muy  poderoso en el ámbito matemático. Sirve para recorrer listas y árboles
+    //Funciones recursivas ---> Funciones que se llaman a sí misma!!! Muy  poderoso en el ámbito matemático. Sirve para recorrer listas y árboles
     //Depende de al menos una condición de corte
     //Consta de:
     //-->Un caso trivial o base (Quier decir que bajo este punto la función no  vuelve a invocarse)
     //-->El caso general que es el que se vuelve a invocar al algoritmo con un  caso más pequeño del mismo (hay que reducir hasta llegar al corte)
     
-    //Factorial de un número:
-
+    //Factorial de un número: Ver archivo factorial
+    
 
     return 0;
 }
