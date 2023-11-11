@@ -98,25 +98,7 @@ int main(){
 
     struct Alumnos clase8voA[30];
 
-     // Cargar datos para varios alumnos
-    for (int i = 0; i < 3; i++) {
-        printf("Ingrese los datos para el alumno %d:\n", i + 1);
-        cargarAlumno(&clase8voA[i]);
-    }
-
-    // Mostrar los datos ingresados
-    printf("\nDatos de los alumnos:\n");
-    for (int i = 0; i < ALUMNOS; i++) {
-        printf("Alumno %d:\n", i + 1);
-        printf("Nombre: %s\n", clase8voA[i].nombre);
-        printf("Edad: %d\n", clase8voA[i].edad);
-        printf("Promedio: %.2f\n", clase8voA[i].promedio);
-        printf("Notas de Matemáticas: %d, %d, %d\n", clase8voA[i].materias.matematica[0], clase8voA[i].materias.matematica[1], clase8voA[i].materias.matematica[2]);
-        printf("Notas de Naturales: %d, %d, %d\n", clase8voA[i].materias.naturales[0], clase8voA[i].materias.naturales[1], clase8voA[i].materias.naturales[2]);
-        printf("\n");
-    }
-
-
+    //Ejemplo en hoja structs.
 
     return 0;
 }
