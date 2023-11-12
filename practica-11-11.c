@@ -101,7 +101,7 @@ int main()
     dos vectores con componentes de tipo float)
     Imprimir los gastos de cada turno.
     */
-    //ejercicio2();
+    ejercicio2();
 
     /*
     Desarrollar un programa que permita ingresar un array de 8 elementos, e informe:
@@ -109,11 +109,9 @@ int main()
     El acumulado de los elementos mayores a 36.
     La cantidad de valores mayores a 50. 
     */
-    //ejercicio3();
+    ejercicio3();
 
 
-    //Ejercicios: Con arrays -->integer y float
-    
 
     return 0;
 }

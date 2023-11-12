@@ -1,0 +1,4 @@
+Empezamos a escribir en archivos.
+Segunda linea escrita.
+Adios Matias.
+Me olvide esta frase.
