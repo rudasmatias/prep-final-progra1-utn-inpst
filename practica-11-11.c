@@ -85,20 +85,15 @@ void ejercicio3(){
     printf("\nLa cantidad de valores mayores a 50: %i",mayores50); 
 }
 
-/* void ejercicio4(){
-
-} */
-
 int main()
 {
 
-    //Ejercicios:
+    //Ejercicios: Con arrays -->integer y float
     /*
     DEFINIR UN VECTOR DE 5 COMPONENTES DE TIPO FLOAT QUE REPRESENTEN LAS ALTURAS DE 5 PERSONAS.
     OBTENER EL PROMEDIO DE LAS MISMAS. CONTAR CON CUÁNTAS PERSONAS SON MÁS ALTAS QUE EL PROMEDIO Y CUÁNTAS MÁS BAJAS.
     */
-    ejercicio1();
-    
+    //ejercicio1();
 
     /*
     Una empresa tiene dos turnos (manana y tarde) en los que trabajan 8 empleados (4 manana, 4 tarde)
@@ -106,7 +101,7 @@ int main()
     dos vectores con componentes de tipo float)
     Imprimir los gastos de cada turno.
     */
-    ejercicio2();
+    //ejercicio2();
 
     /*
     Desarrollar un programa que permita ingresar un array de 8 elementos, e informe:
@@ -114,9 +109,11 @@ int main()
     El acumulado de los elementos mayores a 36.
     La cantidad de valores mayores a 50. 
     */
-    ejercicio3();
+    //ejercicio3();
 
 
+    //Ejercicios: Con arrays -->integer y float
+    
 
     return 0;
 }

@@ -8,6 +8,12 @@ int main() {
     Recuerda que C trata las cadenas de caracteres como arreglos de caracteres, y debes ser cuidadoso para evitar desbordamientos de búfer y asegurarte de que las cadenas tengan un carácter nulo ('\0') al final.
     */
 
+   //Obtener por teclado una cadena con espacios en el medio:
+    char programador[16];
+    printf("Escriba un nuevo nombre:");
+    fgets(programador,sizeof(programador),stdin);
+    printf("Nombre del programador: %s",programador);
+
     /* Libreria string.h */
 
     char cadena[] = "Hola, Mundo!";
