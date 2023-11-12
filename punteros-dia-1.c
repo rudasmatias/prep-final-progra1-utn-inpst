@@ -45,6 +45,7 @@ int main(){
     printf("\nPuntero %a",a);
     printf("\nPuntero %p",a); //Forma correcta del valor de la dirección de memoria en hexagesimal
     printf("\nPuntero %p",(void *)a);
+
     return 0;
     
     
