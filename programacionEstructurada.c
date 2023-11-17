@@ -61,21 +61,21 @@ int main(){
     MOSTRAR TOTAL A PAGAR
     */
 
-/*    int horas, pago, total = 0;
-   char confirmacion;
-   do
-   {
-    printf("Ingresar valor de hora: ");
-    scanf("%i",&pago);
-    printf("Ingresar cantidad de horas: ");
-    scanf("%i",&horas);
-    total = total +calcularPago(horas, pago);
-    fflush(stdin);
-    printf("Desea cargar otro empleado? [s/ n]");
-    scanf("%c",&confirmacion);
-   } while ('s' == confirmacion || 'S' == confirmacion);
+    int horas, pago, total = 0;
+    char confirmacion;
+    do
+    {
+        printf("Ingresar valor de hora: ");
+        scanf("%i",&pago);
+        printf("Ingresar cantidad de horas: ");
+        scanf("%i",&horas);
+        total = total +calcularPago(horas, pago);
+        fflush(stdin);
+        printf("Desea cargar otro empleado? [s/ n]");
+        scanf("%c",&confirmacion);
+    } while ('s' == confirmacion || 'S' == confirmacion);
     
-    printf("\nMonto total a pagar es: %i", total); */
+    printf("\nMonto total a pagar es: %i", total); 
 
     return 0;
 }
