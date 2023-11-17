@@ -44,6 +44,10 @@ int main(){
     // Convertir una cadena a un número de punto flotante
     char cadenaFloat[] = "3.14";
     float numeroFloat = atof(cadenaFloat);
+
+    // Casteo de un numero, otra alternativa a castear multiplicando  x1.00
+    int suma = 10;
+    float promedio = (float)suma/3;
     
     printf("%f",potencia);
     return 0;
