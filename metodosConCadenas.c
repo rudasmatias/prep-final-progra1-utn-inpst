@@ -7,6 +7,9 @@ int main() {
     /*
     Recuerda que C trata las cadenas de caracteres como arreglos de caracteres, y debes ser cuidadoso para evitar desbordamientos de búfer y asegurarte de que las cadenas tengan un carácter nulo ('\0') al final.
     */
+   //Obtener una cadena (1 o más palabras)
+   char palabra1[10];
+   gets(palabra1); //Esta funcion al hacer enter, directamente me agrega un '\0' al final de la palabra.
 
    //Obtener por teclado una cadena con espacios en el medio:
     char programador[16];
@@ -44,7 +47,7 @@ int main() {
     char cadena2[] = "Hola";
 
     // Comparación completa
-    int comparacion1 = strcmp(cadena1, cadena2);
+    int comparacion1 = strcmp(cadena1, cadena2); //si son iguales devuelve 0, si la primera es mayor >0, si la 2da es mayo <0
 
     // Comparación parcial (hasta n caracteres)
     int comparacion2 = strncmp(cadena1, cadena2, 3);
