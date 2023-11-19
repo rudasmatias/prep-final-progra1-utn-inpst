@@ -76,7 +76,7 @@ void ordenarAlfabeticamente(char registro[5][30]){
         printf("\nvuelta %i\n",k);
         for(int f=0; f<4-k;f++){
             if(strcmp(registro[f],registro[f+1])>0){
-                printf("\ncambio %i\n",f);
+                printf("\ncambio %i",f);
                 strcpy(aux, registro[f]);
                 strcpy(registro[f], registro[f+1]);
                 strcpy(registro[f+1],aux);

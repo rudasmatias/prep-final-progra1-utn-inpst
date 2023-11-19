@@ -66,5 +66,61 @@ int main() {
     
     char *posicion = strstr(frase, subcadena);
     // La variable posición apunta al comienzo de la subcadena en la frase o NULL si no se encuentra
+
+
+    /* Libreria ctype.h */
+
+/*  isalnum(caracter): devuelve cierto (un entero cualquiera distinto de cero) si carácter es una letra 
+    o dígito, y falso (el valor entero 0) en caso contrario. 
+    
+    isalpha(caracter): devuelve cierto si carácter es una letra, y falso en caso contrario. 
+    
+    isblank(caracter): devuelve cierto si carácter es un espacio en blanco o un tabulador. 
+    
+    isdigit(caracter): devuelve cierto si carácter es un digito, y falso en caso contrario. 
+    
+    isspace(caracter):  devuelve  cierto  si  carácter  es  un  espacio  en  blanco,  un  salto  de  
+    línea,  un retorno de carro, un tabulador, etc., y falso en caso contrario. 
+    
+    islower(caracter): devuelve cierto si carácter es una letra minúscula, y falso en caso contrario. 
+    
+    isupper(caracter): devuelve cierto si carácter es una letra mayúscula, y falso en caso contrario. 
+    
+    toupper(caracter):  devuelve  la  mayúscula  asociada  a  carácter,  si  la  tiene;  si  no,  devuelve  el 
+    mismo carácter. 
+    
+    tolower(caracter):  devuelve  la  minúscula  asociada  a  carácter,  si  la  tiene;  si  no,  devuelve  el 
+    mismo carácter. */
+
+
+    //strtok
+    char config[] = "Usuario: Juan\nContraseña: secreta\nPuerto: 8080";
+    const char delimiters[] = ": \n";
+
+    char *token = strtok(config, delimiters);
+
+    while (token != NULL) {
+        printf("Clave: %s - Valor: ", token);
+        token = strtok(NULL, delimiters);
+        if (token != NULL) {
+            printf("%s\n", token);
+        }
+        token = strtok(NULL, delimiters);
+    }
+
+    //otro ejemplo
+    char texto[] = "Nikola Tesla, un gran cientifico, (1865-1943) fue clave para la 'ciencia moderna'."; 
+    char signosPuntuacion[] = " (,.)'"; 
+    char *token; 
+    
+    printf("Texto inicial: %s\n\n", texto); 
+    token = strtok( texto, signosPuntuacion); 
+    
+    do{ 
+        printf("%s\n", token); 
+        token=strtok(NULL,signosPuntuacion); 
+    } while(token != NULL );
+
+
     return 0;
 }
