@@ -70,7 +70,6 @@ void verificarExistencia(char nombre[],char registro[5][30]){
 
 void ordenarAlfabeticamente(char registro[5][30]){
 
-
     char aux[30];
     for(int k=0;k<4;k++){
         printf("\nvuelta %i\n",k);
